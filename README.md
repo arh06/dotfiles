@@ -3,8 +3,6 @@
 ## Usage
 Place the configs you want to use into your ~/.config directory
 
-Ex.
-	> cp polybar/ ~/.config
 You may face issues using the configs. The main reason for this is that some apps and filepaths used in the config aren't on your system
 
 ## Programs/Themes used
