@@ -1,5 +1,3 @@
-# This one is not mine, I was given it by a friend. Can't find the creator :(
-
 configuration {
 
 	font: "Envy Code R 10";
@@ -111,8 +109,8 @@ element {
 }
 
 element selected.normal {
-	background-color: @nord7;
-	text-color: #2e3440;
+	background-color: @nord9;
+	text-color: @nord4;
 }
 
 element-text, element-icon {
@@ -134,4 +132,3 @@ button selected normal {
     border: 2px 0px 2px 2px;
     border-color: @foreground;
 }
-
