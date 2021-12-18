@@ -1,19 +1,27 @@
 # dotfiles
 
+This is my personal i3 rice based on the [Nord Colour Scheme](https://nordtheme.com).
+
+![Homescreen](images/desktop.png)
+![Homescreen](images/desktop1.png)
+
 ## Usage
-Place the configs you want to use into your ~/.config directory
+Place the configs you want to use into your ~/.config directory. You may need to remove and backup your previous config files.
 
-You may face issues using the configs. The main reason for this is that some apps and filepaths used in the config aren't on your system
+> cp dotfiles/polybar/ ~/.config/
 
-## Programs/Themes used
-- [Nord Theme](nordtheme.com) (main colour scheme)
-- [i3wm](i3wm.org) (window manager)
+If you face any issues, make sure the filepaths referenced in the config files match the ones on your system, and make sure you have all of the installable dependencies listed below or replace them with your own.
+
+## Dependencies for the exact configuration
+- [FontAwesome](https://fontawesome.com) (bar icons)
+	> sudo apt install fonts-font-awesome
+- [i3wm](https://i3wm.org) (window manager)
 	> sudo apt install i3
-- [Polybar](polybar.github.io) (status bar)
+- [Polybar](https://polybar.github.io) (status bar)
 	> sudo apt install polybar
-- [Rofi](github.com/davatorium/rofi) (launcher)
+- [Rofi](https://github.com/davatorium/rofi) (launcher)
 	> sudo apt install rofi
-- [Compton](github.com/chjj/compton) (compositor for window transparency
+- [Compton](https://github.com/chjj/compton) (compositor for window transparency
 	> sudo apt install compton
 - Nitrogen (wallpaper manager)
 	> sudo apt install nitrogen
