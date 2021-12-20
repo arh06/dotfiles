@@ -12,6 +12,8 @@ Place the configs you want to use into your ~/.config directory. You may need to
 
 If you face any issues, make sure the filepaths referenced in the config files match the ones on your system, and make sure you have all of the installable dependencies listed below or replace them with your own.
 
+I've probably left some '/home/alex' paths in, so just change those to '/~' or '/home/[usrname]'
+
 ## Dependencies for the exact configuration
 - [FontAwesome](https://fontawesome.com) (bar icons)
 	> sudo apt install fonts-font-awesome
