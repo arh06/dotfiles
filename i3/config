@@ -64,7 +64,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec kitty --single-instance
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -200,7 +200,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 bindsym $mod+d exec rofi -show run
 
 # Picom
-exec_always picom -f &
+exec_always picom -f --xrender-sync-fence & 
 
 # Nitrogen
 exec nitrogen --restore
