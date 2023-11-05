@@ -1,4 +1,5 @@
 # dotfiles
+## OLD, SEE https://github.com/muppetcode/dotfiles-manjaro
 
 This is my personal i3 rice based on the [Nord Colour Scheme](https://nordtheme.com).
 
